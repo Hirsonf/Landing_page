@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip-circle {
+    clip-path: circle(87% at 53% 0% );
+}
+
+.container {
+    @media screen and (max-width: 500px) {
+        max-width: 100%;
+        width: 100%;
+    }
+}
